@@ -81,9 +81,7 @@ public class EmployeeRunner {
 		
 		Employee sumit = new Employee(4, "Dhairya", "female", 97000);
         
-		//edao.saveEmp(sumit);
-		// edao.updateEmp(sumit);
-		edao.deleteEmpById(16);
+		
 	}
 	}
 
