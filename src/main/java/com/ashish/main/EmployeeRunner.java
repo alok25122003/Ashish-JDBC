@@ -15,28 +15,7 @@ import com.mysql.cj.jdbc.Driver;
  
 public class EmployeeRunner {
 
-	//public static void main(String[] args) throws SQLException {
 	
-	//*way=1*//	
-		//presistent opject
-		
-	//	Employee sumit = new Employee(11, "sumit Gupta", "Male", 67000);
-
-	    // Employee ravi = new Employee(10, "Ravi Gupta", "Male", 67000);
-	
-		//Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "abhi123");
-
-		//Statement statement = connection.createStatement();
-
-	//statement.executeUpdate("insert into employee(id,name,gender,salary) values (" + ravi.getId()+ ",'"+ravi.getName()+"','"+ravi.getGender()+"',"+ravi.getSalary()+")");
-   
-		//*one line code*//
-		
-		//DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "abhi123").createStatement().executeUpdate("insert into employee(id,name,gender,salary) values (" + sumit.getId()+ ",'"+sumit.getName()+"','"+sumit.getGender()+"',"+sumit.getSalary()+")");
-		
-		
-		//System.out.println("insert into employee(id,name,gender,salary) values (" + sumit.getId()+ ",'"+sumit.getName()+"','"+sumit.getGender()+"',"+sumit.getSalary()+")");
-	 //   System.out.println("Query executed...............");
 
 		
 		//way-2//
