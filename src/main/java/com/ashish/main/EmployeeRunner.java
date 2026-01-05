@@ -1,6 +1,8 @@
 package com.ashish.main;
+import java.sql.SQLException;
 
-/*import java.sql.Connection;
+/*
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -76,12 +78,12 @@ public class EmployeeRunner {
 		System.out.println("Query executed...............");
 */
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 		EmployeeDao edao = new EmployeeDaoImpl();
 		
 		Employee sumit = new Employee(4, "Dhairya", "female", 97000);
         
-		
+		edao.printAllEmps();
 	}
 	}
 

@@ -1,5 +1,6 @@
 package com.ashish.dao;
 
+import java.sql.SQLException;
 import java.util.List;
 
 import com.ashish.entity.Employee;
@@ -20,5 +21,5 @@ public interface EmployeeDao {
 	
 	public List<Employee> getAllEmps();
 	
-	public void printAllEmps();
+	public void printAllEmps() throws SQLException ;
 }
